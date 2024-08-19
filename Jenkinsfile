@@ -6,7 +6,7 @@ pipeline{
 	}
 	stages{
 		stage("Cleanup workspace"){
-			stpes{
+			steps{
 			cleanWs()
 			}
 		}
